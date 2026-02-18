@@ -1,18 +1,11 @@
-# calculateur-interet-simple
+# Simple Interest Calculator
 
-Ce projet est un outil simple permettant de calculer les intérêts sur un prêt ou un investissement en fonction du capital, du taux d'intérêt et de la durée.
+A shell script to calculate simple interest given principal, annual rate of interest and time period in years.
 
-## Formule utilisée
-Le calcul repose sur la formule standard de l'intérêt simple :
-$I = P \times r \times t$
+## Input:
+* `p`, principal amount
+* `t`, time period in years
+* `r`, annual rate of interest
 
-Où :
-- **P** : Capital initial (Principal)
-- **r** : Taux d'intérêt annuel (en décimal)
-- **t** : Temps (en années)
-
-## Utilisation
-1. Saisissez le montant principal.
-2. Saisissez le taux d'intérêt annuel (ex: 0.05 pour 5%).
-3. Saisissez la durée en années.
-4. Le programme affichera le montant total des intérêts acquis.
+## Output:
+* `simple interest = p * t * r`
